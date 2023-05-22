@@ -1,0 +1,22 @@
+mat-toolbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.toolbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.toolbar-toggle {
+  margin-left: 300px;
+}
+
+.toolbar-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+  flex-grow: 1;
+}

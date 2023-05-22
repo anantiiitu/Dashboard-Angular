@@ -1,0 +1,25 @@
+<aside>
+  <ul>
+    <li
+      class="sidebar-item"
+      [ngClass]="{ active: activeItem === 1 }"
+      (click)="setActiveItem(1)"
+    >
+      Item 1
+    </li>
+    <li
+      class="sidebar-item"
+      [ngClass]="{ active: activeItem === 2 }"
+      (click)="setActiveItem(2)"
+    >
+      Item 2
+    </li>
+    <li
+      class="sidebar-item"
+      [ngClass]="{ active: activeItem === 3 }"
+      (click)="setActiveItem(3)"
+    >
+      Item 3
+    </li>
+  </ul>
+</aside>

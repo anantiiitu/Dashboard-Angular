@@ -1,0 +1,23 @@
+.dashboard-container {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.dashboard-container:hover {
+  transform: translateY(-5px);
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.mat-table {
+  width: 100%;
+}
+
+.mat-header-cell,
+.mat-cell {
+  padding: 8px;
+}

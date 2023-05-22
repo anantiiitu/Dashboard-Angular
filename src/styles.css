@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+.app-container {
+  height: 100vh;
+}
+
+.mat-sidenav {
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+}
+
+.mat-sidenav mat-list-item {
+  color: #fff;
+}
+
+.mat-sidenav mat-list-item.active {
+  background-color: #555;
+  font-weight: bold;
+}
+
+.mat-sidenav-content {
+  padding: 20px;
+}
+
+.router-outlet {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.router-outlet:hover {
+  transform: translateY(-5px);
+}

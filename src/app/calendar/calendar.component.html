@@ -1,0 +1,17 @@
+<div class="calendar">
+  <div class="header">
+    <h2>{{ currentDate | date : "MMMM yyyy" }}</h2>
+  </div>
+  <div class="days">
+    <div
+      class="day"
+      *ngFor="let day of daysInMonth"
+      [class.selected]="selectedDay === day"
+      [class.today]="currentDate.getDate() === day"
+      [class.disabled]="day < currentDate.getDate()"
+      (click)="selectDay(day)"
+    >
+      {{ day }}
+    </div>
+  </div>
+</div>
